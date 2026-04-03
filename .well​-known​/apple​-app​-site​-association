@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["N4FUHX68PT.com.justinvolmer.jobsite"],
+        "components": [
+          { "/": "/job/*" },
+          { "/": "/user/*" }
+        ]
+      }
+    ]
+  }
+}
