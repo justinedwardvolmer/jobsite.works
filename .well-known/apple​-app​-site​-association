@@ -4,8 +4,9 @@
       {
         "appIDs": ["N4FUHX68PT.com.justinvolmer.jobsite"],
         "components": [
-          { "/": "/job/*" },
-          { "/": "/user/*" }
+          { "/": "/job/*", "comment": "Opens a specific job posting in the app" },
+          { "/": "/user/*", "comment": "Opens a user profile in the app" },
+          { "/": "/stripe/*", "comment": "Returns from Stripe Connect onboarding" }
         ]
       }
     ]
